@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    animation: zoom 25s;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.navbar li {
+    overflow: hidden;
+    align-items: center;
+    overflow: hidden;
+    align-items: center;
+}
+
+.navbar ul li {
+    float: left;
+    display: inline-block;
+    padding: 14px 20px;
+}
+
+.navbar a {
+    float: right;
+    color: rgb(82, 76, 76);
+    text-align: center;
+    text-decoration: none;
+}
+
+
+}
+.navbar a:hover {
+    background-color: #ddd;
+    /* Grey background color */
+    
+    color: black;
+    /* Black text color */
+}
+.subtitulo {
+    text-align: center;
+    font-size: 42px;
+    color: rgb(173, 169, 169);
+}
+.subtitulo1 {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(82, 76, 76)
+}
+.habilidades {
+    font-size: 25px;
+    text-align: center;
+}
+.Qualificação {
+    font-size: 25px;
+    text-align: center;
+}
+.nome {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: white;
+}
+.nome h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    text-shadow: 0.2rem 0.3 rem 2px rgba(0, 0, 0, .4);
+    animation: movenome 2s;
+}
+@keyframes movenome {
+    0% {
+        transform: translateY(10rem) rotateY(-30deg);
+    }
+    
+    100% {
+        transform: translateY(0) rotateY(0);
+    }
+}
+.nome h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    text-shadow: 0.2rem 0.3 rem 2px rgba(0, 0, 0, .4);
+    animation: movenome 2s;
+}
+.form-register {
+    box-sizing: border-box;
+    width: 500px;
+    background: rgb(173, 169, 169);
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 10px 20px #000;
+}
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls {
+    width: 100%;
+    background: rgb(173, 169, 169);
+    padding: 2px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(82, 76, 76);
+    font-size: 18px;
+}
+.boton {
+    width: 50%;
+    background: white;
+    padding: 12px;
+    color: rgb(82, 76, 76);
+    font-size: 20px;
+    margin: 16px 0;
+}
+.redes-socias {
+    text-align: center;
+    font-size: 42px;
+    color: rgb(173, 169, 169);
+    padding: 20px;
+}
